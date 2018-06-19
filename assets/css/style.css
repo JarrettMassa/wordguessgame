@@ -1,0 +1,77 @@
+html {
+	background-color: black;
+}
+
+body {
+	background-color: black;
+}
+
+.icons{
+	width: 15%;
+}​
+
+.freddy {
+
+}
+
+.hangman{
+	width: 45%;
+	height: auto;
+	margin-right: 7%;
+	margin-left: 7%;
+}
+
+span {
+    font-family: 'Nosifer';
+    font-size: 52px;
+    color: darkred;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.header{
+	margin-left: 4%;
+}
+
+
+#pressStart{
+    opacity: 1;
+}
+
+#winner{
+    opacity: 0;
+}
+
+#loser {
+    opacity: 0;
+}
+
+#gameDisplay{
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Nosifer', cursive;
+}
+
+#gameStats{
+    font-size: 30px;
+    font-family: 'Creepster', cursive;
+    color: red;
+    margin-left: 50px;
+}
+
+video {
+    float: right;
+    margin-right: 7%;
+}
+
+
+    
+
+

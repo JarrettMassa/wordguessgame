@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html onkeyup="checkKeyPress(event)">
+
+
+<link href='https://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<script src="assets/javascript/game.js"></script>
+
+
+
+<head>
+  <title>Jarrett Massa</title>
+</head>
+
+<body>
+
+  <span class="header">
+    <img class="icons" src="assets/images/pennywiseicon.png" alt="Pennywise">
+    <img class="hangman" src="assets/images/hangmanicon.png" alt="Hangman">
+    <img class="icons" src="assets/images/freddyicon.png" alt="Freddy">
+  </span>
+
+  <h1 id="gameDisplay">Press ENTER to begin!</h1>
+
+
+  <video id="resultvid" width="640" height="360">
+  </video>
+
+  <div id="gameStats">
+    <p id="guessesLeft">Guesses Left:</p>
+    <p>Letters Guessed</p>
+    <p id="lettersGuessed"></p>
+    <p id="result"></p>
+  </div>
+
+  <br>
+  <br>
+
+<div class="footer">
+  <audio id="halloween" autoplay="autoplay" controls preload="auto" src="assets/sounds/halloween.mp3"></audio>
+</div>
+
+</body>
+</html>
